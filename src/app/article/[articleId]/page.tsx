@@ -12,8 +12,8 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function ArticlePage({ params }: { params: { articleID: string } }) {
-  const article = articles.find((a) => a.id === params.articleID)
+export default function ArticlePage({ params }: { params: { articleId: string } }) {
+  const article = articles.find((a) => a.id === params.articleId)
 
   if (!article) return notFound()
 
