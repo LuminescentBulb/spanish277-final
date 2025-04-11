@@ -63,7 +63,7 @@ export default function Home() {
                 className={`group cursor-pointer ${index !== secondaryArticles.length - 1 ? "border-b border-gray-200 pb-8" : ""}`}
               >
                 {article.image && (
-                  <div className="relative w-full h-[250px] mb-3 overflow-hidden border border-gray-200">
+                  <div className="relative w-full h-[300px] mb-3 overflow-hidden border border-gray-200">
                     <Image
                       src={article.image || "/placeholder.svg?height=250&width=500"}
                       alt={article.title}
