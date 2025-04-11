@@ -12,8 +12,13 @@ export async function generateStaticParams() {
   }))
 }
 
-export default function ArticlePage({ params }: { params: { articleId: string } }) {
-  const article = articles.find((a) => a.id === params.articleId)
+type ArticlePageProps = {
+  params: Promise<{ articleId: string }>
+}
+
+export default async function ArticlePage({ params }: ArticlePageProps) {
+  const { articleId } = await params
+  const article = articles.find((a) => a.id === articleId)
 
   if (!article) return notFound()
 
@@ -45,7 +50,6 @@ export default function ArticlePage({ params }: { params: { articleId: string } 
                 width={800}
                 height={500}
                 className="rounded shadow my-6"
-                {...props}
               />
             ),
             a: ({ children, ...props }) => (
