@@ -3,6 +3,8 @@ export const articles = [
     id: "1",
     title: "El Equilibrio Entre el Medio Ambiente y Desarollo",
     videoUrl: "",
+    image:
+      "/images/casas.jpg",
     markdown:
       `
 El nivel del mar está subiendo. Desde la Revolución Industrial, la temperatura de la Tierra ha aumentado un grado Celsius. Por eso se han legislado leyes para proteger el medio ambiente. Sin embargo, el cambio climático no da señales de detenerse. Al mismo tiempo, las regulaciones ambientales están parando los desarrollos de la misma infraestructura y los proyectos que facilitarían la transición hacia la neutralidad carbono. De algún modo tenemos un país que no ha reducido sus emisiones ni ha mejorado las condiciones de vida de sus ciudadanos. El precio de las viviendas se ha disparado debido a estas regulaciones ambientales restrictivas, las cuales, sin embargo, no muestran señales de estar generando beneficios reales. Para proteger tanto el medio ambiente como la vida de los ciudadanos tenemos que buscar una solución que realmente funcione, no conformarnos con el statu quo que es destructivo tanto para el medio ambiente como para los ciudadanos. 
@@ -14,13 +16,13 @@ Pienso que California tiene dos opciones difíciles para resolver este problema.
 Leyes bien intencionadas pueden causar grandes daños si no se aplican con cuidado. El medio ambiente no puede protegerse con leyes ambientales que terminan preservando una infraestructura en decadencia y los altos precios de la vivienda. Si de verdad queremos avanzar hacia un futuro más justo ambiental y sostenible, necesitamos regulaciones que ayuden, no que obstaculicen. 
 
       `,
-    image:
-      "/images/glacier.jpg",
   },
   {
     id: "2",
     title: "Los Avances en Washington",
     videoUrl: "",
+    image:
+      "/images/glacier.jpg",
     markdown:
       `
 La elección de 2024 en Los Estados Unidos fue un gran avance por la igualdad en la sociedad. Muchas personas piensan que el avance fue histórico, y esto es verdad. En la elección de 2024, un número récord de mujeres y personas de color (minorías) se presentaron como candidatas en el gobierno. Es claro que entramos en una nueva era en la representación política, porque los avances mostraron un paso crucial en la dirección de una democracia más inclusiva y representativa. 
@@ -33,13 +35,13 @@ El compromiso con la diversidad en el gobierno es muy importante y simbólico. U
 
 En conclusión, las elecciones de 2024 mostraron un cambio significativo en el gobierno de Los Estados Unidos y la democracia. La elección es simbólica porque creó una democracia más representativa, y también promover la diversidad y la inclusión en el liderazgo político – cambiando la política estadounidense para mejor.    
       `,
-    image:
-      "/images/glacier.jpg",
   },
   {
     id: "3",
     title: "30 Años sin Selena ",
     videoUrl: "",
+    image:
+      "/images/guayasamin.jpg",
     markdown:
       `
 Quisiera recordar a Selena Quintanilla. Selena Quintanilla nació el dieciséis de abril de 1971 en Freeport, Texas. Ella empezó a ganar popularidad en los 1980s cuando el grupo Selena y Los Dinos se formó. Después de su tiempo con el grupo, se lanzó como solista en 1989 y grabó “Selena”. Ella llegó a ser una artista icónica para la música latina, específicamente para la música tejano. Ella era conocida como “La Reina de Tejano”. En su vida, ella fue celebrada como una de las grandes artistas mexicanamericanas en el siglo XX. Algunas de sus canciones que más descansan son “Bidi Bidi Bom Bom”, “Si Una Vez”, y “Como la Flor”. Desafortunadamente, Selena fue asesinada salvaje en 1995 por su directora de música, Yolanda Saldívar. Su muerte fue una gran noticia para todo el mundo. Muchas personas viajaron a los Estados Unidos de otros países para asistir a su funeral porque le encantó por ella tanto. 
@@ -48,7 +50,5 @@ Su vida es celebrada todos los días por algunos, pero este año hay más fiesta
 
 Selena siempre será recordada porque su influencia en la industria musical y su cuenta trágica. Una manera que ella es recordada es en la película Selena. Jenifer Lopez juega la parte de Selena y dice la cuenta de su vida y su muerte. Ella también será recordada por su música y de sus contribuciones a la industria. Todavía sus canciones juegan en la radio y a veces yo las escucho en mi tiempo libre. Si Selena viviera hoy, creo sería más famosa que Shakira o Bad Bunny. A muchas personas les importa recordar a Selena porque la voz que ella da a su comunidad, la influencia tenía en la música tejano, y por supuesto su talento. Selena ayudó a formar una nueva generación de música latina y poner la música latina en el mapa. La sociedad recordará el impacto de Selena durante muchos años más. Descansa en paz Selena. 
       `,
-    image:
-      "/images/glacier.jpg",
   }
 ]
