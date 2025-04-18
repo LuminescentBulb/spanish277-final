@@ -31,7 +31,7 @@ export default function Home() {
                 {featuredArticle.title}
               </h2>
               <div className="border-t border-b border-gray-400 py-1 my-3 text-sm">
-                <span className="font-bold text-gray-500">ARTÍCULO DESTACADO</span>
+                <span className="font-bold text-gray-500">OP-ED</span>
               </div>
               <p className="text-lg md:text-xl text-gray-800 mb-4 max-w-4xl">
                 {stripMarkdown(featuredArticle.markdown).substring(0, 200)}...
